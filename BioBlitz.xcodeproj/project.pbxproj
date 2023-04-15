@@ -11,6 +11,9 @@
 		D935598D29E61B1400A06BCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935598C29E61B1400A06BCC /* ContentView.swift */; };
 		D935598F29E61B1500A06BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D935598E29E61B1500A06BCC /* Assets.xcassets */; };
 		D935599229E61B1500A06BCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D935599129E61B1500A06BCC /* Preview Assets.xcassets */; };
+		D935599A29E61DED00A06BCC /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935599929E61DED00A06BCC /* Bacteria.swift */; };
+		D935599C29E6203E00A06BCC /* BacteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935599B29E6203E00A06BCC /* BacteriaView.swift */; };
+		D935599E29E625CC00A06BCC /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935599D29E625CC00A06BCC /* GameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		D935598E29E61B1500A06BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D935599129E61B1500A06BCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D935599329E61B1500A06BCC /* BioBlitz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BioBlitz.entitlements; sourceTree = "<group>"; };
+		D935599929E61DED00A06BCC /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
+		D935599B29E6203E00A06BCC /* BacteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacteriaView.swift; sourceTree = "<group>"; };
+		D935599D29E625CC00A06BCC /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				D935598A29E61B1400A06BCC /* BioBlitzApp.swift */,
 				D935598C29E61B1400A06BCC /* ContentView.swift */,
+				D935599D29E625CC00A06BCC /* GameBoard.swift */,
+				D935599929E61DED00A06BCC /* Bacteria.swift */,
+				D935599B29E6203E00A06BCC /* BacteriaView.swift */,
 				D935598E29E61B1500A06BCC /* Assets.xcassets */,
 				D935599329E61B1500A06BCC /* BioBlitz.entitlements */,
 				D935599029E61B1500A06BCC /* Preview Content */,
@@ -141,6 +150,9 @@
 			files = (
 				D935598D29E61B1400A06BCC /* ContentView.swift in Sources */,
 				D935598B29E61B1400A06BCC /* BioBlitzApp.swift in Sources */,
+				D935599E29E625CC00A06BCC /* GameBoard.swift in Sources */,
+				D935599A29E61DED00A06BCC /* Bacteria.swift in Sources */,
+				D935599C29E6203E00A06BCC /* BacteriaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
